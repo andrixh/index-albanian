@@ -1,0 +1,21 @@
+{
+    "name": "andrixh/index-albanian",
+    "description": "Short list of Albanian stop words and common word suffixes, and a simple algorithm for stemming.",
+    "license": "MIT",
+    "keywords": ["albanian", "stemmer", "stop words"],
+    "authors": [
+        {
+            "name": "Andri Xhitoni",
+            "email": "andrixh@fabrika.al"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andrixh\\Stemmer\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
